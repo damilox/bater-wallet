@@ -61,4 +61,106 @@ nav .nav-btn:hover{
 .hero-content{
   display: flex;
   justify-content: space-between;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10%;
+}
+.hero-flex-1 h1{
+  font-size: 80px;
+  max-width: 700px;
+}
+.hero-flex-1 h3{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.green-btn{
+  background: #b0f127;
+  color: black;
+  padding: 30px 50px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 40px;
+}
+.black-btn{
+  padding: 25px 40px;
+  font-size: 18px;
+  font-weight: 600;
+  background: transparent;
+  color: white;
+  border-radius: 35px;
+  border-color: white;
+  margin-left: 20px;
+}
+.green-btn:hover{
+  background: #b1f127af;
+}
+.hero-image{
+  position: relative;
+}
+.hero-image-2{
+  position: absolute;
+  /* top: 0px; */
+  bottom: 30px;
+  right: 160px;
+}
+.hero-image-2 img{
+  width: 150px;
+}
+.hero-image-3{
+  position: absolute;
+  /* top: 0px; */
+  bottom: 60px;
+  right: 10px;
+  top: 160px;
+}
+.hero-image-3 img{
+  width: 100px;
+}
+.hero-image-4{
+  position: absolute;
+  /* top: 0px; */
+  bottom: 250px;
+  right: 160px;
+}
+.hero-image-4 img{
+  width: 170px;
+}
+
+/* ---------------- */
+.header-companies{
+  text-align: center;
+  margin-top: 150px;
+}
+.header-companies h2{
+  font-size: 40px;
+  font-weight: 700;
+}
+.header-companies h2 span{
+  color: #b0f127;
+}
+.header-companies .flex-images{
+  /* max-width: 4000px; */
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 40px;
+  margin-bottom: 8%;
+
+}
+.header-companies .flex-images img{
+  width: 210px;
+
+}
+
+/* ==========Section Future Crypto wallet=========== */
+.crypto-wallet{
+  background: #141414;
+}
+.crypto-wallet-grid{
+  display: flex;
 }
